@@ -5,8 +5,8 @@ mysql:
   expose:
     - "3306"
   environment:
-    - MYSQL_USER=springuser
-    - MYSQL_PASSWORD=ThePassword
+    - MYSQL_USER=sa
+    - MYSQL_PASSWORD=
     - MYSQL_DATABASE=db_example
     - MYSQL_ROOT_PASSWORD=root
   volumes:
